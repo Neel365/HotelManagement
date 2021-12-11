@@ -165,8 +165,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</ul>
 			</div>
 						<!-- FlexSlider -->
-					<script type="text/javascript" defer="defer" src="js/jquery.flexslider.js"></script>
-						<script type="text/javascript">
+					<script defer src="js/jquery.flexslider.js"></script>
+						<script>
 						    // Can also be used with $(document).ready()
 						    $(window).load(function () {
 						        $('.flexslider').flexslider({
@@ -185,14 +185,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																	
 					
 					<p>Special Offer</p>	
-					<script type="text/javascript">
+					<script>
 					    $(document).ready(function () {
 					        $('[data-toggle="tooltip"]').tooltip();
 					    });
 					</script>
 				</div>
 				<div class="sp-bor-btn text-right">
-					<h4>&#36 <%# Eval("Price") %></h4>
+					<h4>&#8377; <%# Eval("Price") %></h4>
 					<p class="best-pri">Best price</p>
 					<div class="search">
                     <asp:LinkButton ID="btnBook" BackColor="#CC0000"   runat="server" Text="Book Now" CommandName="Update" class="search" Font-Bold="True" ForeColor="#FFFFCC" />

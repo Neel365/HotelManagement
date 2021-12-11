@@ -104,8 +104,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									                
 									<div id="slider-range"></div>	
                                     <br />
-                                  &nbsp;&#36 <asp:TextBox ID="txtMinPrice" style=" font-weight: normal; width:50px" runat="server" ></asp:TextBox>
-									 &nbsp;to &nbsp; &#36 <asp:TextBox ID="txtMaxPrice" style="  font-weight: normal; width:50px" runat="server"></asp:TextBox>
+                                  &nbsp;&#8377; <asp:TextBox ID="txtMinPrice" style=" font-weight: normal; width:50px" runat="server" ></asp:TextBox>
+									 &nbsp;to &nbsp; &#8377; <asp:TextBox ID="txtMaxPrice" style="  font-weight: normal; width:50px" runat="server"></asp:TextBox>
 									   <br /><br /><div> <asp:Button runat="server" ID="btnPriceSearch"  
                                         Text="Search" onclick="btnPriceSearch_Click"/></div></li>			
 							</ul>
@@ -239,7 +239,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="spl-bor-btn">
 					<div class="sp-bor-btn text-right">
                     <br />
-						<h4> &#36 &nbsp;<%# Eval("Price") %>/-</h4>
+						<h4> &#8377; &nbsp;<%# Eval("Price") %>/-</h4>
                         <br />
 						<p>Minimum price</p>
                         <br />
