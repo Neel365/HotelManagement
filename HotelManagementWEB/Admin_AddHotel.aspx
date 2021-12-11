@@ -117,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <asp:DropDownList ID="ddlCountry" CssClass="dropdown" 
                                 data-settings='{"wrapperClass":"flat"}' runat="server" 
                                 >
-                            <asp:ListItem Text="Canada" Selected="True" ></asp:ListItem>
+                            <asp:ListItem Text="India" Selected="True" ></asp:ListItem>
                             </asp:DropDownList>          			
 			            	
 						</div>	
