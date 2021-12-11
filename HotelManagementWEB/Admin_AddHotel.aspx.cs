@@ -79,7 +79,7 @@ public partial class Admin_AddHotel : System.Web.UI.Page
             {
                // img.SaveAs(Server.MapPath("~/images/" + img.FileName));
 
-                String AddHotel = "INSERT INTO tbl_Hotel (HotelName, Email, Phone, Address1, Address2, CityId, StateId, Country, Star,Description,ImagePath,Price,AirPort,RailwayStation,LandMark) VALUES('" + txtName.Text + "','" + txtEmail.Text + "','" + txtPhone.Text + "','" + txtAddress1.Text + "','" + txtAddress2.Text + "','" + ddlCity.SelectedValue + "','" + ddlState.SelectedValue + "','" + ddlCountry.SelectedItem + "','" + ddlStar.SelectedItem + "','" + txtDescription.Text + "','~/images/" + img.FileName + "','" + Convert.ToInt32(txtPrice.Text) + "','" +  Convert.ToInt32(txtAirport.Text) + "','" +  Convert.ToInt32(txtRailStation.Text) + "','" + txtLandMark.Text + "')";
+                String AddHotel = "INSERT INTO tbl_Hotel (HotelName, Email, Phone, Address1, Address2, CityId, StateId, Country, Star,Description,ImagePath,Price,AirPort,RailwayStation,LandMark) VALUES('" + txtName.Text + "','" + txtEmail.Text + "','" + txtPhone.Text + "','" + txtAddress1.Text + "','" + txtAddress2.Text + "','" + Convert.ToInt32(ddlCity.SelectedValue) + "','" + Convert.ToInt32(ddlState.SelectedValue) + "','" + ddlCountry.SelectedItem + "','" + ddlStar.SelectedItem + "','" + txtDescription.Text + "','~/images/" + img.FileName + "','" + Convert.ToInt32(txtPrice.Text) + "','" +  Convert.ToInt32(txtAirport.Text) + "','" +  Convert.ToInt32(txtRailStation.Text) + "','" + txtLandMark.Text + "')";
             SqlCommand cmd = new SqlCommand(AddHotel, con);
 
             con.Open();
